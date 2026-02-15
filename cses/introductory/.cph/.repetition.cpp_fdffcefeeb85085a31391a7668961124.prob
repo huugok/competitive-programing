@@ -1,0 +1,1 @@
+{"name":"Local: repetition","url":"/home/hugo/projectos/cses/introductory/repetition.cpp","tests":[{"id":1770986200584,"input":"ATTCGGGA","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hugo/projectos/cses/introductory/repetition.cpp","group":"local","local":true}
