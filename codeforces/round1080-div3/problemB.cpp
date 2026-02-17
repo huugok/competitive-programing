@@ -1,56 +1,36 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int root(int x){
+    while(x % 2 == 0) x /= 2;
+    return x;
+}
+
 int main(){
-    int repeticiones;
-    cin >> repeticiones;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
 
-    while(repeticiones--){
-        int tamaño;
-        cin >> tamaño; 
-        vector<int> pares;
-        vector<int> impares;
-        vector<int> unionParImpar(tamaño);
+    int t;
+    cin >> t;
 
-        int contador = 0;
-        int numero;
-        while(tamaño--){
-            cin >> numero;
-            if(contador % 2 == 0){
-                pares.push_back(numero); 
-            } else {
-                impares.push_back(numero); 
-            }
-            contador++;
-        }
+    while(t--){
+        int n;
+        cin >> n;
 
-        sort(pares.begin(), pares.end());
-        sort(impares.begin(), impares.end());
+        vector<int> a(n+1);
 
+        for(int i=1;i<=n;i++)
+            cin >> a[i];
 
-        int contadorPar = 0, contadorImpar = 0;
-        for(int i = 0; i < repeticiones; i++){
-            if(i % 2 == 0){
-                unionParImpar[i] = pares[contadorPar++]; 
-            } else {
-                unionParImpar[i] = impares[contadorImpar++];
-            }
-        }
+        bool ok = true;
 
-        bool sePuedeOrdenar = true;
-        for(int i = 0; i < repeticiones; i++){
-            if(unionParImpar[i] != i + 1) {
-                sePuedeOrdenar = false;
+        for(int i=1;i<=n;i++){
+            if(root(i) != root(a[i])){
+                ok = false;
                 break;
             }
         }
 
-        if(sePuedeOrdenar) {
-            cout << "YES" << endl;
-        } else {
-            cout << "NO" << endl;
-        }
+        cout << (ok ? "YES\n" : "NO\n");
     }
-
-    return 0;
 }
