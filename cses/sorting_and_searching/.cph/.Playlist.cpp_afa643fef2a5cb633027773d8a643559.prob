@@ -1,0 +1,1 @@
+{"name":"Local: Playlist","url":"/home/hugo/projectos/cses/sorting_and_searching/Playlist.cpp","tests":[{"id":1771947417074,"input":"8\n1 2 1 3 2 7 4 2","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hugo/projectos/cses/sorting_and_searching/Playlist.cpp","group":"local","local":true}
