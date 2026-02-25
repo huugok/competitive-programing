@@ -1,0 +1,1 @@
+{"name":"Local: Counting_Rooms","url":"/home/hugo/projectos/cses/graph_algorithms/Counting_Rooms.cpp","tests":[{"id":1772034968322,"input":"5 8\n########\n#..#...#\n####.#.#\n#..#...#\n########","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hugo/projectos/cses/graph_algorithms/Counting_Rooms.cpp","group":"local","local":true}
