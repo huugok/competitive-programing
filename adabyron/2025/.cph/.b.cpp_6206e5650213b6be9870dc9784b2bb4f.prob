@@ -1,0 +1,1 @@
+{"name":"Local: b","url":"/home/hugo/projectos/adabyron/2025/b.cpp","tests":[{"id":1772109150724,"input":"15 20\n15 35\n10 100\n50 100","output":"True\nFalse\nTrue\nTrue"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hugo/projectos/adabyron/2025/b.cpp","group":"local","local":true}
