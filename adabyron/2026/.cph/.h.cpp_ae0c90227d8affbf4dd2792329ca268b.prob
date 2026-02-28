@@ -1,0 +1,1 @@
+{"name":"Local: h","url":"/home/hugo/projectos/adabyron/2026/h.cpp","tests":[{"id":1772286259293,"input":"Mafalda\n2\n9001\n8543\n\nHomer Simpson\n2\n12321\n57275","output":"Se puede confiar en Mafalda\nHomer Simpson es equidistante"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hugo/projectos/adabyron/2026/h.cpp","group":"local","local":true}

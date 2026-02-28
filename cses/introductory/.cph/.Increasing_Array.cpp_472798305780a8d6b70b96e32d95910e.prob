@@ -1,0 +1,1 @@
+{"name":"Local: Increasing_Array","url":"/home/hugo/projectos/cses/introductory/Increasing_Array.cpp","tests":[{"id":1772301227385,"input":"5\n3 2 5 1 7","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/hugo/projectos/cses/introductory/Increasing_Array.cpp","group":"local","local":true}
